@@ -60,10 +60,10 @@ body{
  }
 
 
- .button3{
+ .button3 a{
    position: center;
    font-size: 18px;
-   text-decoration: none ;
+   text-decoration: none;
    font-weight: bold;
    background-color: 	#D3D3D3;
    color:#000000;
@@ -75,7 +75,7 @@ body{
    width: 230px;
  }
 
- .button3:hover {
+ .button3 a:hover {
    background:#000000;
    color: #ffffff;
  }
@@ -194,7 +194,7 @@ body{
 }
 
 
-.button{
+.button a{
   font-size: 16px;
   text-decoration: none ;
   font-weight: bold;
@@ -208,11 +208,11 @@ body{
   width: 175px;
 }
 
-.button:hover {
+.button a:hover {
   background:#000000;
   color: #ffffff;
 }
-.button2{
+.button2 a{
   font-size: 16px;
   text-decoration: none ;
   font-weight: bold;
@@ -227,7 +227,7 @@ body{
   width: 175px;
 }
 
-.button2:hover {
+.button2 a:hover {
   background:#000000;
   color: #ffffff;
 }
@@ -237,7 +237,7 @@ body{
   top: 60%;
 }
 
-.button4{
+.button4 a{
   font-size: 16px;
   text-decoration: none ;
   font-weight: bold;
@@ -251,7 +251,7 @@ body{
   width: 175px;
 }
 
-.button4:hover {
+.button4 a:hover {
   background:#000000;
   color: #ffffff;
 }
