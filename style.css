@@ -80,6 +80,42 @@ body{
    color: #ffffff;
  }
 
+ .about-me{
+display: grid ;
+background-color: #f8f8ff ;
+padding: 20px ;
+grid-template-columns: repeat(3, 1fr);
+grid-auto-rows: minmax(auto);
+gap:20px;
+padding: 20px ;
+background-color: #f8f8ff ;
+font-weight: 300 ;
+font-family: "Roboto", sans-serif;
+box-sizing: border-box;
+justify-content: end;
+grid-template-areas:
+"content-image content-text1 content-text2" ;
+ }
+
+ .content-image {
+
+
+ }
+ .content-text1{
+   background-color: #f8f8ff ;
+   font-weight: 300 ;
+   font-family: "Roboto", sans-serif;
+
+
+ }
+ .content-text2{
+   background-color: #f8f8ff ;
+   font-weight: 300 ;
+   font-family: "Roboto", sans-serif;
+
+
+ }
+
 .container {
 
     width:100%;
@@ -116,6 +152,25 @@ body{
 
 
 
+
+}
+ .content-large-text{
+   background-color: #f8f8ff ;
+   padding: 20px
+
+ }
+
+
+.content-large-text h1 {
+  background-color: #f8f8ff ;
+  font-weight: 300 ;
+  font-family: "Roboto", sans-serif;
+
+}
+.content-large-text p {
+  background-color: #f8f8ff ;
+  font-weight: 300 ;
+  font-family: "Roboto", sans-serif;
 
 }
 
@@ -193,7 +248,12 @@ body{
     font-size: 18px ;
 }
 
+.buttonwrap{
+  padding-top: 60px ;
+  padding-left: 40px ; 
+  align: center ;
 
+}
 .button a{
   font-size: 16px;
   text-decoration: none ;
@@ -267,11 +327,48 @@ body{
   padding: 20px;
 }
 
+.content-large-text2{
+  background-color: #f8f8ff ;
+  padding: 20px ;
+
+}
+
+.content-large-text2 p{
+  background-color: #f8f8ff ;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300
+
+
+}
+.content-large-text2 h1{
+  background-color: #f8f8ff ;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 ;
+
+
+}
+
+
 .content-large3{
 
  grid-area: content-large3;
  padding: 20px;
 }
+
+.content-large-text3{
+  background-color: #f8f8ff ;
+  font-family: "Roboto", sans-serif;
+  padding: 20px
+
+}
+.content-large-text3 h1{
+  background-color: #f8f8ff ;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300 ;
+
+
+}
+
 
 .responsive  {
 
@@ -286,13 +383,26 @@ body{
   max-width: 200px;
 
 }
+.receipt{
+  width: 100% ;
+  max-width: 200px;
+
+}
 
 .abc-medical{
   border:none;
   width: 100% ;
-  max-width: 250;
+  max-width: 350;
 
 }
+
+.abc-medical2{
+  border:none;
+  width: 100% ;
+  max-width: 225;
+
+}
+
 
 
 .hr{
@@ -416,4 +526,21 @@ body{
 
   }
 
+}
+
+@media(max-width:700px){
+  .about-me {
+
+    grid-template-columns: 3fr;
+    grid-template-rows: 0.0fr 0.0fr 0.0fr;
+    grid-template-areas:
+
+    "content-image"
+    "content-text1"
+    "content-text2"
+    ;
+    Margin: 0;
+
+
+  }
 }
