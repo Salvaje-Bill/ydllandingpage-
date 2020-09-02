@@ -27,12 +27,11 @@ body{
 }
 
 .banner{
-
   background: #85a7b2 ;
   width:100%;
   background-size:cover;
   background-position:center;
-  height: 100%;
+  height: 65%;
   display:flex;
   flex-direction:column;
   justify-content:center;
@@ -70,7 +69,8 @@ body{
    border: #000000 1px solid;
    padding: 10px;
    border-radius: 10px;
-   margin-top:`10px`;
+   margin-bottom: 140px ;
+   display: grid ;
    text-align: center;
    width: 230px;
    transition: background-color 2s ease-out ;
@@ -90,7 +90,7 @@ grid-template-columns: repeat(3, 1fr);
 grid-auto-rows: minmax(auto);
 gap:20px;
 padding: 20px ;
-background-color: #f8f8ff   ;
+background-color: #f8f8ff;
 font-weight: 300 ;
 font-family: "Roboto", sans-serif;
 box-sizing: border-box;
@@ -161,6 +161,7 @@ grid-template-areas:
    background-color: #f8f8ff ;
    padding: 20px
 
+
  }
 
 
@@ -169,11 +170,13 @@ grid-template-areas:
   font-weight: 300 ;
   font-family: "Roboto", sans-serif;
 
+
 }
 .content-large-text p {
   background-color: #f8f8ff ;
   font-weight: 300 ;
   font-family: "Roboto", sans-serif;
+
 
 }
 
@@ -538,6 +541,14 @@ grid-template-areas:
 }
 
 @media(max-width:700px){
+  .banner {
+height: 100% ;
+
+  }
+}
+
+
+@media(max-width:700px){
   .about-me {
 
     grid-template-columns: 3fr;
@@ -549,6 +560,17 @@ grid-template-areas:
     "content-text2"
     ;
     Margin: 0;
+
+
+  }
+}
+
+@media(max-width: 700px) {
+  .content-image {
+    display: block;
+    align: center;
+    margin-left: 200px ;
+    margin-right: 80px ; 
 
 
   }
